@@ -17,7 +17,7 @@ import numpy as np
 #st.title('Assignment Dashboard')
 
 # Define tabs
-tab1, tab2, tab3 = st.tabs(["Stock Details", "Coin Comparison", "Image Classifier"])
+tab1, tab2, tab3 = st.tabs(["Cryptocurrency Details", "Coin Comparison", "Image Classifier"])
 coins_list = fetch_all_coins_list()
 coin_names = {coin['id']: coin['name'] for coin in coins_list} if coins_list else {}
 
@@ -27,7 +27,7 @@ model = load_model(model_path)
 
 # Code for Tab 1: Stock Details
 with tab1:
-    st.header("Cryptocurrency Stock Details")
+    st.header("Cryptocurrency Details")
 
     # Attempt to fetch coins list
     try:
