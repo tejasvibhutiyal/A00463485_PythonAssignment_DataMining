@@ -1,0 +1,8 @@
+requests
+python-dotenv
+tensorflow>=2.0
+streamlit
+pandas
+plotly
+Pillow
+opencv-python

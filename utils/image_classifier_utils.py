@@ -4,7 +4,6 @@ from PIL import Image
 import numpy as np
 from PIL import ImageOps
 
-import cv2
 
 def enhanced_preprocess_image(image_path):
     original_img = Image.open(image_path)
